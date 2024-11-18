@@ -1,0 +1,19 @@
+{
+	"name": "pettyperecommenderservice",
+	"version": "1.0.0",
+	"main": "app.js",
+	"scripts": {
+		"test": "jest --testTimeout=4000 --forceExit",
+		"start": "node app.js",
+		"dev": "nodemon app.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"axios": "^1.7.7",
+		"express": "^4.21.1",
+		"jest": "^29.7.0",
+		"supertest": "^7.0.0"
+	}
+}
